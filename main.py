@@ -46,5 +46,8 @@ if user_prompt:
     response = requests.post("https://api.generativeai.dev/v1/chat/gemini-pro-latest", headers=headers, json=data)
     gemini_response = response.json()
 
-    # Display Gemini-Pro's response
-    st.session_state.chat_session.append({'role': 'assistant', 'text': gemini_response['text']})
+    # Display Gemini-Pro's response if it contains 'text' key
+    if 'text' in gemini_response:
+        st.session_state.chat_session.append({'role': 'assistant', 'text': gemini_response['text']})
+    else:
+        st.error("An error occurred while processing your request.")

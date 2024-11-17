@@ -1,6 +1,6 @@
-# GeminiPro Chatbot 🤖
+# GeminiPro LLM Chatbot 🤖
 
-GeminiPro Chatbot is an interactive AI-powered assistant built with **Streamlit** and **Google Gemini-Pro**. This project demonstrates how to deploy Large Language Models (LLMs) in a user-friendly interface and customize chatbot behavior for various audiences or use cases.
+GeminiPro LLM Chatbot is an interactive AI-powered assistant built with **Streamlit** and **Google Gemini-Pro**. This project demonstrates how to deploy Large Language Models (LLMs) in a user-friendly interface and customize chatbot behavior for various audiences or use cases.
 
 
 ## Technologies Used
@@ -23,8 +23,8 @@ Follow these steps to get the chatbot running on your local machine:
 ### Step 1: Clone the Repository
 Clone the project from GitHub to your local machine:
 ```bash
-git clone https://github.com/isMeXar/gemini-pro-chatbot.git
-cd gemini-pro-chatbot-main
+git clone [https://github.com/isMeXar/gemini-pro-chatbot.git](https://github.com/isMeXar/LLM-Chatbot-Gemini.git)
+cd LLM-Chatbot-Gemini-main
 ```
 
 ### Step 2: Install Dependencies
